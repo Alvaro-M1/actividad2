@@ -1,0 +1,37 @@
+FORMULARIO
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro_cliente.html</title>
+</head>
+
+<body>
+    <h1>Registro de usuarios</h1>
+    <form id="Registro de usuario" action="http://localhost:3001/api/clientes" method="POST">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre">
+        <label for="Apellidos">Apellido:</label>
+        <input type="text" name="Nombre" id="Apellidos">
+        <br>
+        <label for="Edad">Fecha de nacimiento</label>
+        <input type="date" name="Edad" id="Edad">
+        <label for="documento">Numero de documento</label>
+        <input type="tel" name="Documento" id="Numero de documento">
+        <br>
+        <label for="Direccion">Direccion</label>
+        <input type="text">
+        <br>
+        <label for="Telefono">Telefono</label>
+        <input type="tel" name="Telefono" id="numero de telefono">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="Correo electronico">
+        <br>
+        <input type="submit" value="Enviar" id="Enviar">
+    </form>
+</body>
+
+</html>
